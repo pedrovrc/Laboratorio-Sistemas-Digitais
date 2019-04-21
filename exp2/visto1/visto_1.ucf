@@ -1,0 +1,5 @@
+NET "a" LOC = "P11"; #SW0
+NET "b" LOC = "L3"; #SW1
+NET "cin" LOC = "K3"; #SW2
+NET "s" LOC = "M5"; #LD0
+NET "cout" LOC = "M11"; #LD1

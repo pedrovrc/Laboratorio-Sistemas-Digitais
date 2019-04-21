@@ -1,0 +1,7 @@
+NET "S<0>" LOC = "P11"; #SW0
+NET "S<1>" LOC = "L3"; #SW1
+NET "D<0>" LOC = "K3"; #SW2
+NET "D<1>" LOC = "B4"; #SW3
+NET "D<2>" LOC = "G3"; #SW4
+NET "D<3>" LOC = "F3"; #SW5
+NET "Y" LOC = "M5"; #LD0
