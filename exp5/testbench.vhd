@@ -4,11 +4,23 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity testbench is
-	Port (result1, result2 : in STD_LOGIC_VECTOR (4 downto 0);
+	Port (result_somador, result_golden : in STD_LOGIC_VECTOR (4 downto 0);
 			iteradorA, iteradorB : out STD_LOGIC_VECTOR (3 downto 0));
 end testbench;
 
 architecture arch of testbench is
+
+component somador_4bits is
+	Port (A : in STD_LOGIC_VECTOR (3 downto 0);
+			B : in STD_LOGIC_VECTOR (3 downto 0);
+			S : out STD_LOGIC_VECTOR (4 downto 0));
+end component;
+
+component golden_model is 
+	Port (A : in STD_LOGIC_VECTOR (3 downto 0);
+			B : in STD_LOGIC_VECTOR (3 downto 0);
+			S : out STD_LOGIC_VECTOR (4 downto 0));
+end component;
 
 begin
 	process
@@ -24,10 +36,10 @@ begin
 			for j in 0 to 15 loop
 			
 				iteradorA <= contador1;
-				iteradorB <= contador2;
+				iteradorB <= contador2;				
 				wait for 200 ns;
 				
-				assert (result_1 = result2) report "Falhou: i = " & integer'image(i) &
+				assert (result_somador = result_golden) report "Falhou: i = " & integer'image(i) &
 				" j = " & integer'image(j) severity ERROR;
 				
 				contador2 := contador2 + 1;
