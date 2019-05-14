@@ -1,4 +1,3 @@
-# Laboratorio-Sistemas-Digitais
 Repositório para guardar os códigos em VHDL feitos na disciplina de Sistemas Digitais
 # Universidade de Brasília
 # Professor: Molinaro
