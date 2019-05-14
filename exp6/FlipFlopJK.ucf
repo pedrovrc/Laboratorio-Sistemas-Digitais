@@ -1,0 +1,6 @@
+NET "clk" LOC = ;#SW0
+NET "J" LOC = ;#SW1
+NET "K" LOC = ;#SW2
+NET "Preset" LOC = ;#SW6
+NET "Clear" LOC = ;#SW7
+NET "Q" LOC = ;#LD0
