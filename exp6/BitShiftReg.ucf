@@ -1,0 +1,14 @@
+NET "CLK" LOC = "G12"; #BTN0
+NET "RST" LOC = "C11"; #BTN1
+NET "LOAD" LOC = "M4"; #BTN2
+NET "D<0>" LOC = "P11"; #SW0
+NET "D<1>" LOC = "L3"; #SW1
+NET "D<2>" LOC = "K3"; #SW2
+NET "D<3>" LOC = "B4"; #SW3
+NET "dir" LOC = "F3"; #SW5
+NET "L" LOC = "E2"; #SW6
+NET "R" LOC = "N3"; #SW7
+NET "Q<0>" LOC = "M5"; #LD0
+NET "Q<1>" LOC = "M11"; #LD1
+NET "Q<2>" LOC = "P7"; #LD2
+NET "Q<3>" LOC = "P6"; #LD3

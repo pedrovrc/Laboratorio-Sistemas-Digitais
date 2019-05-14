@@ -1,6 +1,6 @@
-NET "clk" LOC = ;#SW0
-NET "J" LOC = ;#SW1
-NET "K" LOC = ;#SW2
-NET "Preset" LOC = ;#SW6
-NET "Clear" LOC = ;#SW7
-NET "Q" LOC = ;#LD0
+NET "CLK" LOC = "G12"; #BTN0
+NET "J" LOC = "P11"; #SW0
+NET "K" LOC = "L3"; #SW1
+NET "PRST" LOC = "E2"; #SW6
+NET "CLR" LOC = "N3"; #SW7
+NET "Q" LOC = "M5"; #LD0
