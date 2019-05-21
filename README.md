@@ -1,4 +1,4 @@
-Repositório para guardar os códigos em VHDL feitos na disciplina de Laboratório de Sistemas Digitais
+Este repositório contém os códigos VHDL feitos pelo aluno Pedro V. R. de Carvalho na disciplina de Laboratório de Sistemas Digitais.
 # Universidade de Brasília
 # Professor: Molinaro
 # Semestre: 2019/1
