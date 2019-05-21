@@ -1,0 +1,6 @@
+NET "a<0>" LOC = "P11";		# SW0
+NET "a<1>" LOC = "L3";		# SW1
+NET "clock" LOC = "G12";	# BTN0
+NET "quarto" LOC = "M5";	# LD0
+NET "metade" LOC = "M11";	# LD1
+NET "refri" LOC = "P7";		# LD2
