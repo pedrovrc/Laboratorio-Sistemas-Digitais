@@ -5,5 +5,5 @@ Este repositório contém códigos na linguagem VHDL produzidos para experimento
 - Autor: Pedro V. R. de Carvalho
 - Semestre que cursou a disciplina: 2019/1
 # Observações
-  - Indentação dos códigos está comprometida por conta de tabulação diferenciada no programa Xilinx ISE. Como eles estão agora, abrindo no ISE, eles aparecem indentados normalmente. É bem possível que eu acabe não indentando esses códigos, só por ser um trabalho muito chato mesmo. Sinta-se à vontade de indentá-los em um branch separado caso queira, e se pedir merge eu concedo sem problemas.
-  - Nem todos os códigos estão 100% funcionais. Alguns deles tiveram bugs que foram consertados no momento do visto, e não foram atualizados no repositório. Contudo, não deve haver erros muito grosseiros, logo, esses códigos servem pelo menos de base para referência.
+  - A indentação dos códigos está comprometida por conta de tabulação diferenciada no programa Xilinx ISE. Como eles estão agora, abrindo no ISE, eles aparecem indentados normalmente. É bem possível que eu acabe não indentando esses códigos, só por ser um trabalho muito chato mesmo. Sinta-se à vontade de indentá-los em um branch separado caso queira, e se pedir merge eu concedo sem problemas.
+  - Nem todos os códigos estão completamente funcionais. Alguns deles tiveram bugs que foram consertados em laboratório, no momento do visto, e não foram atualizados no repositório. Contudo, não deve haver erros muito grosseiros. Portanto, esses códigos servem pelo menos de base para referência.
