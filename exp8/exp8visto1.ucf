@@ -1,0 +1,22 @@
+# ---------- ENTRADAS ----------
+NET "reset" LOC = "A7";	#BTN0
+NET "enable" LOC = "M4"; #BTN1
+NET "load" LOC = "C11"; #BTN2
+NET "uniload<3>" LOC = "P11";	#SW0
+NET "uniload<2>" LOC = "L3";	#SW1
+NET "uniload<1>" LOC = "K3";	#SW2
+NET "uniload<0>" LOC = "B4";	#SW3
+NET "dezload<3>" LOC = "G3";	#SW4
+NET "dezload<2>" LOC = "F3";	#SW5
+NET "dezload<1>" LOC = "E2";	#SW6
+NET "dezload<0>" LOC = "N3";	#SW7
+
+# ---------- SAIDAS ----------
+NET "unidade<3>" LOC = "M5";	#LD0
+NET "unidade<2>" LOC = "M11";	#LD1
+NET "unidade<1>" LOC = "P7";	#LD2
+NET "unidade<0>" LOC = "P6";	#LD3
+NET "dezena<3>" LOC = "N5";	#LD4
+NET "dezena<2>" LOC = "N4";	#LD5
+NET "dezena<1>" LOC = "P4";	#LD6
+NET "dezena<0>" LOC = "G1";	#LD7

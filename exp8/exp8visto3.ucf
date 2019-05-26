@@ -1,0 +1,13 @@
+# ---------- ENTRADAS ----------
+NET "ligadesliga" LOC = "P11";	#SW0
+NET "sensorA" LOC = "L3";	#SW1
+NET "sensorB" LOC = "K3";	#SW2
+
+# ---------- SAIDAS ----------
+NET "num7seg<0>" LOC = "M12";	#a
+NET "num7seg<1>" LOC = "L13";	#b
+NET "num7seg<2>" LOC = "P12";	#c
+NET "num7seg<3>" LOC = "N11";	#d
+NET "num7seg<4>" LOC = "N14";	#e
+NET "num7seg<5>" LOC = "H12";	#f
+NET "num7seg<6>" LOC = "L14";	#g
