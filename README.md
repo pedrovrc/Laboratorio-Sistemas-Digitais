@@ -1,4 +1,4 @@
-Este repositório (atualmente incompleto) contém códigos na linguagem VHDL produzidos para experimentos realizados em laboratório.
+Este repositório contém códigos na linguagem VHDL produzidos para experimentos realizados em laboratório.
 - Universidade de Brasília
 - Disciplina: Laboratório de Sistemas Digitais
 - Professor: Luís Fernando Ramos Molinaro
